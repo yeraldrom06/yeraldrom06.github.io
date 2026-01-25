@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg: #0b1220;
   --card: #0f172a;
@@ -67,7 +71,12 @@ h1 {
 }
 
 .links a:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(147, 197, 253, 0.18);
+  box-shadow: 0 0 0 4px rgba(147, 197, 253, 0.08);
+}
+
+section {
+  scroll-margin-top: 120px;
 }
 
 .card {
