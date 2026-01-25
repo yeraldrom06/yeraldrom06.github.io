@@ -7,26 +7,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Yerald Romero</h1>
+      <p class="subtitle">Computer & Electrical Engineering Student</p>
 
-  <h1>Yerald Romero</h1>
-  <p>Computer & Electrical Engineering Student</p>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/yeraldrom06" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </header>
 
-  <h2>About Me</h2>
-  <p>
-    I’m a Computer & Electrical Engineering student interested in hardware,
-    robotics, renewable energy, and applied problem-solving.
-  </p>
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m a Computer & Electrical Engineering student interested in hardware, robotics,
+        renewable energy, and applied problem-solving.
+      </p>
+    </section>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Arduino-based Sensor System</li>
-    <li>Robotics & Control Project</li>
-    <li>Solar Energy Initiative</li>
-  </ul>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
 
-  <h2>Contact</h2>
-  <p>Email: yeraldrom06@gmail.com</p>
-  <p>GitHub: github.com/yeraldrom06</p>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Arduino-based Sensor System</h3>
+          <p>Data acquisition + basic control. (Add your details later)</p>
+        </div>
 
+        <div class="project">
+          <h3>Robotics & Control Project</h3>
+          <p>Hardware + logic integration. (Add your details later)</p>
+        </div>
+
+        <div class="project">
+          <h3>Solar Energy Initiative</h3>
+          <p>Sustainability-focused engineering design. (Add your details later)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:yeraldrom06@gmail.com">yeraldrom06@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/yeraldrom06" target="_blank" rel="noreferrer">github.com/yeraldrom06</a></p>
+      <!-- Add LinkedIn when ready -->
+      <!-- <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-link" target="_blank" rel="noreferrer">linkedin.com/in/your-link</a></p> -->
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Yerald Romero</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
