@@ -287,3 +287,10 @@ a {
   color: rgba(255,255,255,0.78);
   line-height: 1.45;
 }
+.headshot {
+  width: 110px;        /* was probably ~60–80px */
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.15);
+}
