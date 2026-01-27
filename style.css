@@ -118,10 +118,19 @@ h2 {
 }
 
 
+/* Increase project text size */
 .project p {
-  margin: 0;
-  color: var(--muted);
+  font-size: 1.05rem;   /* bump this up to 1.1rem if you want it larger */
+  line-height: 1.6;
+  margin: 10px 0 0;
+  opacity: 0.9;
 }
+
+/* Slightly bigger tags too */
+.project .tags span {
+  font-size: 0.95rem;
+}
+
 
 a {
   color: #93c5fd;
@@ -319,6 +328,10 @@ a {
   overflow-wrap: break-word;
   margin: 0;
 }
+.project-top h3 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
 
 @media (max-width: 850px) {
   .project-top {
@@ -332,4 +345,13 @@ a {
   word-break: normal;
   overflow-wrap: normal;
   writing-mode: horizontal-tb;
+}
+@media (max-width: 850px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .project-img {
+    height: 220px;
+  }
 }
