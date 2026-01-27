@@ -136,7 +136,7 @@ a {
 @media (max-width: 850px) {
   .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 20px;
 }
   h1 {
@@ -305,4 +305,21 @@ a {
   opacity: 0.7;
   font-size: 0.9rem;
 }
+.project-top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
 
+.project-top h3{
+  flex: 1;
+  min-width: 0;
+  line-height: 1.25;
+}
+.project-top h3{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
