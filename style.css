@@ -355,3 +355,21 @@ a {
     height: 220px;
   }
 }
+.project {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.project-media {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
