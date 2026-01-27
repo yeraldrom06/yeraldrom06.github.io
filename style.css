@@ -373,3 +373,7 @@ a {
   flex-direction: column;
   gap: 10px;
 }
+.project-header {
+  grid-column: 1 / -1;  /* spans across both columns */
+  margin-bottom: 6px;
+}
