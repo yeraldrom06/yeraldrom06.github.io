@@ -300,3 +300,9 @@ a {
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.15);
 }
+.subtle {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
