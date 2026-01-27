@@ -333,3 +333,11 @@ a {
     gap: 10px;
   }
 }
+.project-title {
+  display: block;
+  width: 100%;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  writing-mode: horizontal-tb;
+}
