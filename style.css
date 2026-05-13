@@ -146,13 +146,6 @@ a {
   font-size: 0.95rem;
 }
 
-/* Mobile */
-@media (max-width: 850px) {
-  .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 20px;
-}
   h1 {
     font-size: 2.1rem;
   }
@@ -216,11 +209,7 @@ a {
 }
 
 
-@media (max-width: 850px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
+
   .avatar {
     width: 110px;
     height: 110px;
@@ -337,11 +326,7 @@ a {
   line-height: 1.25;
 }
 
-@media (max-width: 850px) {
-  .project-top {
-    gap: 10px;
-  }
-}
+
 .project-title {
   display: block;
   width: 100%;
@@ -351,10 +336,6 @@ a {
   writing-mode: horizontal-tb;
 }
 
-  .project-img {
-    height: 220px;
-  }
-}
 
 .project-media {
   display: flex;
